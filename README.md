@@ -1,0 +1,2 @@
+# Autoencoder-as-an-end-to-end-communication-system
+In this project, we train an autoencoder for information transmission over an end-to-end communication system, where the encoder will  replace the transmitter tasks such as modulation and coding along with adding redundancy and  the decoder will replace the receiver tasks such as demodulation and decoding. In the end we will compare our Autoencoder’s performance with different Modulation schemes like QPSK and 8PSK.
