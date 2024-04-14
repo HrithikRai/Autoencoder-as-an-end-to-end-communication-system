@@ -29,12 +29,14 @@ conventional communication system.
 3. Performing Hyperparameter tuning to ensure optimal reconstruction of outputs.
 4. Comparing the performance of the autoencoder with different Modulation Schemes.
 
+# The following objectives are taken care of in the below code.
+
 ## Optimizers used for performance comparision - ADAM, Gradient Descent and RMSProp
 ![](images/adam.png)
 
-
 ### Observations :
 
+![](images/performance_table.png)
 ➢ The autoencoder’s BLER is lower than that of QPSK and 8PSK over the whole SNR range
 with ADAM optimizer, while RMSprop was lower only in higher batch sizes, and 
 Gradient Decent was the worst in all cases.
