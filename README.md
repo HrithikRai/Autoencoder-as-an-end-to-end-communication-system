@@ -1,7 +1,8 @@
 # Autoencoder-as-an-end-to-end-communication-system
-
-#### Detailed Description in the PDF File
+![](images/autoencoder.png)
+#### Project summarized below, for detailed description alongwith theoritical background refer [here](autoencoder_project_description.pdf)
 In this project, we train an autoencoder for information transmission over an end-to-end communication system, where the encoder will  replace the transmitter tasks such as modulation and coding along with adding redundancy and  the decoder will replace the receiver tasks such as demodulation and decoding. In the end we will compare our Autoencoder’s performance with different Modulation schemes like QPSK and 8PSK.
+![](images/autoencoder_design.png)
 
 The goal of a communication system is to deliver a certain message (text, audio, image, 
 video, etc.) to the destination over a noisy physical channel (copper wire, optical fiber, EM wave 
@@ -13,6 +14,7 @@ When handling the complexity of optimization for new wireless applications with 
 degrees of freedom, these systems often fail. The reason being their probabilistic approaches to 
 infer the source message. Deep learning displays a promising potential when it comes to 
 addressing this challenge via data-driven solutions. 
+
 Instead of traversing through a rigid pre-planned design, new generations of wireless 
 systems empowered by deep learning can learn from data and optimize their performance. 
 These smart communication systems take aid from several trivial machine learning tasks like 
@@ -28,6 +30,8 @@ conventional communication system.
 4. Comparing the performance of the autoencoder with different Modulation Schemes.
 
 ## Optimizers used for performance comparision - ADAM, Gradient Descent and RMSProp
+![](images/adam.png)
+
 
 ### Observations :
 
