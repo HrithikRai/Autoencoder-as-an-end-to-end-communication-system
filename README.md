@@ -32,7 +32,7 @@ conventional communication system.
 # The following objectives are taken care of in the below code.
 
 ## Optimizers used for performance comparision - ADAM, Gradient Descent and RMSProp
-![](images/adam.png)
+![](images/code.png)
 
 ### Observations :
 
